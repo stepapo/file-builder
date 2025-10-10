@@ -1,0 +1,26 @@
+{
+	"name": "stepapo/file-builder",
+	"type": "library",
+	"description": "Builder that helps create PHP files with Nette PHP generator.",
+	"keywords": ["nette", "generator", "php", "file"],
+	"homepage": "https://github.com/stepapo/file-builder",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Štěpán Postler"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/stepapo/file-builder/issues"
+	},
+	"require": {
+		"php": ">=8.3",
+		"nette/php-generator": "^4.0",
+		"stepapo/utils": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Stepapo\\FileBuilder\\": "src/"
+		}
+	}
+}
