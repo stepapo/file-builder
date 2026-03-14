@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Stepapo\FileBuilder;
 
-use Stepapo\FileBuilder\Config\Constant;
-use Stepapo\FileBuilder\Config\File;
-use Stepapo\FileBuilder\Config\Method;
-use Stepapo\FileBuilder\Config\Property;
 use Nette\PhpGenerator\ClassType;
 use Nette\PhpGenerator\Constant as PhpConstant;
 use Nette\PhpGenerator\EnumType;
@@ -17,6 +13,10 @@ use Nette\PhpGenerator\PhpFile;
 use Nette\PhpGenerator\PhpNamespace;
 use Nette\PhpGenerator\Property as PhpProperty;
 use Nette\PhpGenerator\TraitType;
+use Stepapo\FileBuilder\Config\Constant;
+use Stepapo\FileBuilder\Config\File;
+use Stepapo\FileBuilder\Config\Method;
+use Stepapo\FileBuilder\Config\Property;
 
 
 class FileBuilder
